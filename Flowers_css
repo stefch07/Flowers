@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+}
+
+.flower {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.petal {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.petal1 {
+    top: 0;
+    left: 25px;
+}
+
+.petal2 {
+    left: 0;
+    top: 25px;
+}
+
+.petal3 {
+    top: 25px;
+    right: 0;
+}
+
+.petal4 {
+    bottom: 0;
+    left: 25px;
+}
+
+.center {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff1493;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
